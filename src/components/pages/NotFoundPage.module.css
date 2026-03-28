@@ -1,0 +1,50 @@
+.page {
+  max-width: 720px;
+  margin: 8rem auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.code {
+  font-family: monospace;
+  font-size: 13px;
+  color: var(--red);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: clamp(32px, 5vw, 48px);
+  font-weight: 900;
+  color: var(--cream);
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin-bottom: 1.25rem;
+}
+
+.sub {
+  font-size: 16px;
+  color: var(--cream-muted);
+  line-height: 1.7;
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 2.5rem;
+}
+
+.back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--red);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  transition: opacity 0.15s;
+}
+
+.back:hover {
+  opacity: 0.75;
+}

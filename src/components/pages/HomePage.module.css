@@ -1,0 +1,66 @@
+.page {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 2rem 6rem;
+}
+
+/* ── Hero ── */
+.hero {
+  padding: 5rem 0 3.5rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 3rem;
+}
+
+.heroEyebrow {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--red);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin-bottom: 1rem;
+}
+
+.heroTitle {
+  font-family: var(--font-display);
+  font-size: clamp(42px, 7vw, 72px);
+  font-weight: 900;
+  color: var(--cream);
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+  margin-bottom: 1.5rem;
+}
+
+.heroSub {
+  font-size: 16px;
+  color: var(--cream-muted);
+  line-height: 1.7;
+  max-width: 460px;
+  font-weight: 300;
+}
+
+.heroDivider {
+  width: 40px;
+  height: 2px;
+  background: var(--red);
+  margin: 2rem 0 1rem;
+}
+
+.heroCount {
+  font-size: 13px;
+  color: var(--cream-muted);
+  font-style: italic;
+  letter-spacing: 0.03em;
+}
+
+/* ── Grid ── */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
